@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+	list-style: none;
+}
+html {
+	font-family: "Microsoft YaHei UI","Microsoft YaHei",sans-serif;
+}
+img {
+	width: 100%;
+}
+em {
+	font-style: normal;
+}
+body {
+	font-size: 14px;
+	background: #f5f5f5;
+	overflow-x:scroll;
+	min-width:1200px;
+  max-width:100%;
+}
+.hidden {
+	display: none;
+}
+.container {
+  width: 60%;
+  margin: 0 20%;
+}
+.flex {
+  display: flex;
+}
+.vertical {
+  margin: auto 0;
+}
+.he {
+	color: #999;
+}
+.ellipsi {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 行数*/
+  -webkit-box-orient: vertical;
+}
+a {
+	color: #000;
+	cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+	color: #0aa487;
+}
+body .v-modal {
+	opacity: 0.3;
+}
+.titl {
+	font-size: 26px;
+}
+.titl .tits {
+	font-size: 16px;
+}
+.mo {
+	opacity: 0.6;
+	border-bottom: 1px solid;
+}
+.enlarge {
+	width: 94px;
+	height: 125px;
+  overflow: hidden;
+}
+.enlarge img{
+	height: 100%;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.enlarges img{
+	transform: scale(1.2);
+}
+.title {
+	line-height: 25px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.txtx {
+	white-space:normal;
+	line-height: 20px;
+	height: 40px;
+  font-size: 12px;
+}
+.autos {
+	font-size: 14px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.niu {
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px 0 25px 25px;
+}
+.mo {
+  position: relative;
+  top: -10px;
+  z-index: 0;
+  left: 100px;
+  width: 91%;
+}
+.titl {
+  display: inline;
+  background: #fff;
+  z-index: 1;
+  color: #555554;
+}
+.middle {
+	justify-content:space-between;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 45%;
+}
+.left-box {
+  width: 30%;
+	margin-right: 10px;
+}
+.right-box {
+  width: 28%;
+}
+.info {
+  color: #999;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+th {
+	text-align: right;
+	width: 100px;
+	font-weight: normal;
+}
+td {
+	padding-left: 20px;
+}
+.img {
+  width: 67px;
+  height: 88px;
+  border-radius: 5px;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+/* 忘记密码 */
+.login .forget .el-dialog__body {
+	padding: 0;
+}
+
+/* 章节开始 */
+/* 棕色 */
+.brown {
+  color: #000;
+  background: #dbd6c3;
+}
+.brown .box {
+  background: #f6f4ec;
+}
+/* 绿色 */
+.green {
+  background: #ccddcd;
+}
+.green .box {
+  background: #e6f0e7;
+}
+/* 粉色 */
+.pink {
+  background: #e2c8c9;
+}
+.pink .box {
+  background: #f6e4e4;
+}
+/* 蓝色 */
+.blue {
+  background: #afc6cc;
+}
+.blue .box {
+  background: #dfedf0;
+}
+/* 灰色 */
+.gray {
+  background: #d3d3d3;
+}
+.gray .box {
+  background: #e7e7e7;
+}
+/* 黑夜模式 */
+.black {
+  color: #999;
+  background: #000;
+}
+.black .box {
+  background: #141619;
+  border: 1px solid #141619;
+}
+.box {
+  border-radius: 6px;
+  margin: 10px auto;
+  border: 1px solid #dcdcdc;
+}
+.box .ico i {
+  font-size: 18px;
+}
+.ico {
+  cursor: pointer;
+  margin-top: 15px;
+	font-size: 12px;
+	text-align: center;
+}
+.sus {
+  position: fixed;
+}
+.top {
+	top: 18px;
+	left: 10%;
+}
+.bottom {
+  bottom: 18px;
+  right: 10%;
+}
+.sus .box {
+  width: 60px;
+  height: 60px;
+}
+/* 字体大小 */
+.sz18 {
+	font-size: 18px;
+}
+.sz20 {
+	font-size: 20px;
+}
+.sz22 {
+	font-size: 22px;
+}
+.sz24 {
+	font-size: 24px;
+}
+.sz26 {
+	font-size: 26px;
+}
+.sz28 {
+	font-size: 28px;
+}
+/* 宽度 */
+.w600 {
+	width: 600px;
+	margin: 0 auto;
+}
+.w800{
+	width: 800px;
+	margin: 0 auto;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+.w1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+/* 章节结束 */
+@media (max-width: 1768px) {
+	.container {
+		width: 75%;
+		margin: 0 12.5%;
+	}
+}
+
+@media (max-width: 1500px) {
+	.container {
+		width: 80%;
+		margin: 0 10%;
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		width: 90%;
+		margin: 0 5%;
+	}
+}
+
